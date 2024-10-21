@@ -1,7 +1,7 @@
 export class Employee {
   constructor(
     public name: string,
-    public dateOfBirth: Date,
+    public dateOfBirth: Date | null,
     public city: string,
     public salary: number,
     public gender?: string,
